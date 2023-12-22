@@ -26,14 +26,15 @@ Developer: Prakriti Dhang
 				<div class="card">
 					<div class="card-header fs-5 fw-bold">Instructions</div>
 					<div class="card-body">
-						<p class="h5">Experimental simulation instruction</p>
+						<p class="h5">Simulation instruction</p>
 						<ol>
 							<li>Click on "Start the Experiment" button
 							</li>
-							<li>Click on the Sample cell (green colored in the ITC machine)</li>
-							<li>Click on the injection fluid.</li>
-							<li>Next click on each checkbox in step 1 to see the interaction/ binding between ligand and
-								protein.</li>
+							<li>Click on the Sample cell (green colored in the ITC machine) or the button in step 1.</li>
+							<li>Click on the injection fluid or the button "Protein in Injection".</li>
+							<li>Next click "10%" checkbox in step 3, and on the pluger to see the interaction/ binding between ligand and
+								protein. Repeat for 20%, 30%, 40% to the interaction/binding between ligand and
+								protein. </li>
 							<li>Click on "Data Analysis" button.</li>
 						</ol>
 						<p class="h5">Calculation instructrion</p>
@@ -66,49 +67,47 @@ Developer: Prakriti Dhang
 										Experiment</button>
 								</td>
 							</tr>
-							<!--tr>
+							<tr>
 								<td>Step 1</td>
 								<td><button id="step1" type="button"
 									class="btn btn-info border border-1  rounded-3 fs-6 m-1"
-									style="cursor: pointer; " data-bs-toggle="modal"
-									data-bs-target="#exampleModal">Sample cell</button></td>
+									style="cursor: pointer; " onclick="showsamplebtn()" disabled>Sample cell</button></td>
 
 							</tr>
 							<tr>
 								<td>Step 2</td>
 								<td><button id="step2" type="button"
 									class="btn btn-info border border-1  rounded-3 fs-6 m-1"
-									style="cursor: pointer; " data-bs-toggle="modal"
-									data-bs-target="#exampleModal">Protein in injection</button></td>
+									style="cursor: pointer; " onclick="showligandbtn()" disabled>Protein in injection</button></td>
 
-							</tr-->
+							</tr>
 							<tr>
-								<td>Step 1</td>
+								<td>Step 3</td>
 
 								<td>
 									<p class="h4">Binding/Interaction
 
 									</p>
 									<div class="form-check div-inline">
-										<input class="form-check-input" type="checkbox" value="" id="int1" onclick="clickchk1()">
+										<input class="form-check-input" type="checkbox" value="" id="int1" onclick="clickchk1()" disabled>
 										<label class="form-check-label" for="int1" >
 											10%
 										</label>
 									</div>
 									<div class="form-check div-inline">
-										<input class="form-check-input" type="checkbox" value="" id="int2" onclick="clickchk2()">
+										<input class="form-check-input" type="checkbox" value="" id="int2" onclick="clickchk2()" disabled>
 										<label class="form-check-label" for="int2">
 											20%
 										</label>
 									</div>
 									<div class="form-check div-inline">
-										<input class="form-check-input" type="checkbox" value="" id="int3" onclick="clickchk3()">
+										<input class="form-check-input" type="checkbox" value="" id="int3" onclick="clickchk3()" disabled>
 										<label class="form-check-label" for="int3">
 											30%
 										</label>
 									</div>
 									<div class="form-check div-inline">
-										<input class="form-check-input" type="checkbox" value="" id="int4" onclick="clickchk4()">
+										<input class="form-check-input" type="checkbox" value="" id="int4" onclick="clickchk4()" disabled>
 										<label class="form-check-label" for="int4">
 											40%
 										</label>
@@ -117,11 +116,10 @@ Developer: Prakriti Dhang
 
 							</tr>
 							<tr>
-								<td>Step 2</td>
+								<td>Step 4</td>
 								<td><button id="step2" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " data-bs-toggle="modal"
-										data-bs-target="#exampleModal">Data Analysis</button></td>
+										style="cursor: pointer; " disabled>Data Analysis</button></td>
 
 							</tr>
 						</table>
@@ -145,12 +143,20 @@ Developer: Prakriti Dhang
 
 		<div class="row">
 			<div class="col-md-6">
-				<div class="card card-body border border-1">
+				<div class="card card-body border border-1" >
 					<div class="img-container">
 						<img src="./images/setup_itc.png" id="setup" class="img-fluid">
 						<img src="./images/plunger.png" id="plungerinj" class="img-fluid">
 						<canvas width="10px" height="20px" id="injectioncolumn"
+							style="border: 0px solid rgb(243, 238, 238); "></canvas>
+							<canvas width="10px" height="20px" id="injectioncolumn2"
 							style="border: 0px solid black; "></canvas>
+							<canvas width="10px" height="20px" id="injectioncolumn3"
+							style="border: 0px solid black; "></canvas>
+							<canvas width="10px" height="20px" id="injectioncolumn4"
+							style="border: 0px solid black; "></canvas>
+
+
 						<canvas width="10px" height="20px" id="ligandshow" style="border: 0px solid black; "
 							onclick="showligand()"></canvas>
 

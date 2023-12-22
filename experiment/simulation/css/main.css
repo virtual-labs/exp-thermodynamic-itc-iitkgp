@@ -35,7 +35,7 @@ Developer: Prakriti Dhang*/
 
 #plungerinj{
     position: absolute;
-    top:-3%; /*2 to 10 */
+    top:1%; /*2 to 10 */
     left:50.2%;
     width:5%;
     z-index: 3;
@@ -45,14 +45,42 @@ Developer: Prakriti Dhang*/
 
 #injectioncolumn{
     position: absolute;
-    top:24.9%;
+    top:24.8%;
     left:51.7%;
     width:2%;
-    height: 10%;
+    height: 3%;
     z-index: 3;
     
-    
-    
+
+}
+#injectioncolumn2{
+    position: absolute;
+    top:27.95%;
+    left:51.7%;
+    width:2%;
+    height: 3%;
+    z-index: 3;
+   
+
+}
+#injectioncolumn3{
+    position: absolute;
+    top:31%;
+    left:51.7%;
+    width:2%;
+    height: 3%;
+    z-index: 3;
+   
+
+}
+#injectioncolumn4{
+    position: absolute;
+    top:34.1%;
+    left:51.7%;
+    width:2%;
+    height: 3%;
+    z-index: 3;
+   
 }
 
 #ligandshow{
