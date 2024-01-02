@@ -48,14 +48,14 @@ function showligandbtn(){
 
 var imgobjplunger=null;
 function injectplunger(){
- var plungertop = 1;
+ var plungertop = 5;
  var imgplunger= document.getElementById("plungerinj");
  clearInterval(imgobjplunger);
  imgobjplunger = setInterval(frame, 90);
 
 
  function frame(){
-  if(plungertop == 4){
+  if(plungertop == 8){
     clearInterval(imgobjplunger);
     document.getElementById("plungerinj").removeAttribute("onclick", "injectplunger()");
     document.getElementById("int2").disabled = false;
@@ -68,7 +68,7 @@ function injectplunger(){
     canvass11 = document.getElementById("injectioncolumn");
     ctxgs11 = canvass11.getContext("2d");
     var posY = 0;
-    var speed = 0.5;
+    var speed = 0.6;
 
 
 
@@ -111,6 +111,7 @@ function injectplunger(){
 function clickchk1(){
   if(document.getElementById("int1").checked){
     document.getElementById("plungerinj").setAttribute("onclick", "injectplunger()");
+    document.getElementById("pstep3").style.display="block";
     document.getElementById("ligand").style.display="none";
     document.getElementById("protein").style.display="none";
     document.getElementById("int20").style.display="none";
@@ -185,6 +186,7 @@ function clickchk4(){
     document.getElementById("int2").disabled=true;
     document.getElementById("int3").disabled=true;
     document.getElementById("int1").disabled=true;
+    document.getElementById("step4").disabled = false;
   }
   else{
     $('#alertModal').modal('show');
@@ -203,14 +205,14 @@ function cancelmsg() {
 
 var imgobjplunger2=null;
 function injectplunger2(){
- var plungertop = 4;
+ var plungertop = 8;
  var imgplunger2= document.getElementById("plungerinj");
  clearInterval(imgobjplunger2);
  imgobjplunger2 = setInterval(frame, 90);
 
 
  function frame(){
-  if(plungertop == 7){
+  if(plungertop == 11){
     clearInterval(imgobjplunger2);
     document.getElementById("plungerinj").removeAttribute("onclick", "injectplunger2()");
     document.getElementById("int20").style.display="block";
@@ -262,14 +264,14 @@ function injectplunger2(){
 
 var imgobjplunger3=null;
 function injectplunger3(){
- var plungertop = 7;
+ var plungertop = 11;
  var imgplunger3= document.getElementById("plungerinj");
  clearInterval(imgobjplunger3);
  imgobjplunger3 = setInterval(frame, 80);
 
 
  function frame(){
-  if(plungertop == 10){
+  if(plungertop == 14){
     clearInterval(imgobjplunger3);
     document.getElementById("plungerinj").removeAttribute("onclick", "injectplunger3()");
     document.getElementById("int30").style.display="block";
@@ -321,14 +323,14 @@ function injectplunger3(){
 
 var imgobjplunger4=null;
 function injectplunger4(){
- var plungertop = 10;
+ var plungertop = 14;
  var imgplunger4= document.getElementById("plungerinj");
  clearInterval(imgobjplunger4);
  imgobjplunger4 = setInterval(frame, 80);
 
 
  function frame(){
-  if(plungertop == 13){
+  if(plungertop == 17){
     clearInterval(imgobjplunger4);
     document.getElementById("plungerinj").removeAttribute("onclick", "injectplunger4()");
     document.getElementById("int40").style.display="block";
@@ -376,7 +378,43 @@ function injectplunger4(){
 
 }
 
+function datanalysisgraph(){
+  document.getElementById("cardint1").style.display="none";
+  document.getElementById("cardint").style.display="block";
+  document.getElementById("graph1").style.display="block";
+  var chart = new CanvasJS.Chart("chartContainer", {
+    animationEnabled: true,
+    title: {
+      text: "Isothermal titration calorimetry (ITC)"
+    },
+    axisY: {
+      title: "kcal/mole",
+      minimum: -10,
+      maximum: 0,
+      gridThickness: 0
 
+    },
+    axisX: {
+      title: "Molar ratio",
+      minimum: 0,
+      maximum: 2,
+      crosshair: {
+        enabled: false
+      }
+
+
+
+    },
+    data: [{
+
+      type: "scatter",
+      //dataPoints: thermogramData.map(point => ({ x: point.x, y: point.y, z: point.z, color: getColorForTemperature(point.z) }))
+    }]
+  });
+  chart.render();
+}
+
+/*
 var thermogramData = [
   { x: 1, y: 1, z: 25 },
   { x: 2, y: 1, z: 28 },
@@ -402,13 +440,13 @@ var layout = {
 
 Plotly.newPlot('thermogramChartContainer', data, layout);
 
-}
+}*/
 /*var thermogramData = [
   { x: 1, y: 1, z: 25 },
   { x: 2, y: 1, z: 28 },
   { x: 3, y: 1, z: 30 },
   // Add more data points as needed
-];
+];*/
 
 window.onload = function () {
 
@@ -438,10 +476,10 @@ window.onload = function () {
       data: [{
   
         type: "scatter",
-        dataPoints: thermogramData.map(point => ({ x: point.x, y: point.y, z: point.z, color: getColorForTemperature(point.z) }))
+        //dataPoints: thermogramData.map(point => ({ x: point.x, y: point.y, z: point.z, color: getColorForTemperature(point.z) }))
       }]
     });
     chart.render();
    
   
-  }*/
+  }
