@@ -1,0 +1,87 @@
+
+/home/runner/work/exp-thermodynamic-itc-iitkgp/exp-thermodynamic-itc-iitkgp/experiment/simulation/js/main.js
+    9:10  warning  'start' is defined but never used                no-unused-vars
+   18:10  warning  'restartexp' is defined but never used           no-unused-vars
+   24:10  warning  'showsample' is defined but never used           no-unused-vars
+   29:10  warning  'showligand' is defined but never used           no-unused-vars
+   34:10  warning  'showsamplebtn' is defined but never used        no-unused-vars
+   39:10  warning  'showligandbtn' is defined but never used        no-unused-vars
+   50:10  warning  'injectplunger' is defined but never used        no-unused-vars
+   68:5   warning  'canvass11' is not defined                       no-undef
+   69:5   warning  'ctxgs11' is not defined                         no-undef
+   69:15  warning  'canvass11' is not defined                       no-undef
+   75:5   warning  Move function declaration to function body root  no-inner-declarations
+   78:7   warning  'ctxgs11' is not defined                         no-undef
+   79:7   warning  'ctxgs11' is not defined                         no-undef
+   80:7   warning  'ctxgs11' is not defined                         no-undef
+   81:7   warning  'ctxgs11' is not defined                         no-undef
+   82:7   warning  'ctxgs11' is not defined                         no-undef
+   83:7   warning  'ctxgs11' is not defined                         no-undef
+   86:5   warning  Move function declaration to function body root  no-inner-declarations
+   89:30  warning  'canvass11' is not defined                       no-undef
+   94:5   warning  Move function declaration to function body root  no-inner-declarations
+   99:7   warning  'cancelani' is not defined                       no-undef
+  111:10  warning  'clickchk1' is defined but never used            no-unused-vars
+  128:5   warning  '$' is not defined                               no-undef
+  129:5   warning  '$' is not defined                               no-undef
+  134:10  warning  'clickchk2' is defined but never used            no-unused-vars
+  150:5   warning  '$' is not defined                               no-undef
+  151:5   warning  '$' is not defined                               no-undef
+  156:10  warning  'clickchk3' is defined but never used            no-unused-vars
+  171:5   warning  '$' is not defined                               no-undef
+  172:5   warning  '$' is not defined                               no-undef
+  176:10  warning  'clickchk4' is defined but never used            no-unused-vars
+  192:5   warning  '$' is not defined                               no-undef
+  193:5   warning  '$' is not defined                               no-undef
+  200:10  warning  'cancelmsg' is defined but never used            no-unused-vars
+  207:10  warning  'injectplunger2' is defined but never used       no-unused-vars
+  225:5   warning  'canvass11' is not defined                       no-undef
+  226:5   warning  'ctxgs11' is not defined                         no-undef
+  226:15  warning  'canvass11' is not defined                       no-undef
+  232:5   warning  Move function declaration to function body root  no-inner-declarations
+  235:7   warning  'ctxgs11' is not defined                         no-undef
+  236:7   warning  'ctxgs11' is not defined                         no-undef
+  237:7   warning  'ctxgs11' is not defined                         no-undef
+  238:7   warning  'ctxgs11' is not defined                         no-undef
+  239:7   warning  'ctxgs11' is not defined                         no-undef
+  240:7   warning  'ctxgs11' is not defined                         no-undef
+  243:5   warning  Move function declaration to function body root  no-inner-declarations
+  246:30  warning  'canvass11' is not defined                       no-undef
+  251:5   warning  Move function declaration to function body root  no-inner-declarations
+  256:7   warning  'cancelani' is not defined                       no-undef
+  266:10  warning  'injectplunger3' is defined but never used       no-unused-vars
+  284:5   warning  'canvass11' is not defined                       no-undef
+  285:5   warning  'ctxgs11' is not defined                         no-undef
+  285:15  warning  'canvass11' is not defined                       no-undef
+  291:5   warning  Move function declaration to function body root  no-inner-declarations
+  294:7   warning  'ctxgs11' is not defined                         no-undef
+  295:7   warning  'ctxgs11' is not defined                         no-undef
+  296:7   warning  'ctxgs11' is not defined                         no-undef
+  297:7   warning  'ctxgs11' is not defined                         no-undef
+  298:7   warning  'ctxgs11' is not defined                         no-undef
+  299:7   warning  'ctxgs11' is not defined                         no-undef
+  302:5   warning  Move function declaration to function body root  no-inner-declarations
+  305:30  warning  'canvass11' is not defined                       no-undef
+  310:5   warning  Move function declaration to function body root  no-inner-declarations
+  315:7   warning  'cancelani' is not defined                       no-undef
+  325:10  warning  'injectplunger4' is defined but never used       no-unused-vars
+  342:5   warning  'canvass11' is not defined                       no-undef
+  343:5   warning  'ctxgs11' is not defined                         no-undef
+  343:15  warning  'canvass11' is not defined                       no-undef
+  349:5   warning  Move function declaration to function body root  no-inner-declarations
+  352:7   warning  'ctxgs11' is not defined                         no-undef
+  353:7   warning  'ctxgs11' is not defined                         no-undef
+  354:7   warning  'ctxgs11' is not defined                         no-undef
+  355:7   warning  'ctxgs11' is not defined                         no-undef
+  356:7   warning  'ctxgs11' is not defined                         no-undef
+  357:7   warning  'ctxgs11' is not defined                         no-undef
+  360:5   warning  Move function declaration to function body root  no-inner-declarations
+  363:30  warning  'canvass11' is not defined                       no-undef
+  368:5   warning  Move function declaration to function body root  no-inner-declarations
+  373:7   warning  'cancelani' is not defined                       no-undef
+  381:10  warning  'datanalysisgraph' is defined but never used     no-unused-vars
+  385:19  warning  'CanvasJS' is not defined                        no-undef
+  453:21  warning  'CanvasJS' is not defined                        no-undef
+
+✖ 82 problems (0 errors, 82 warnings)
+
