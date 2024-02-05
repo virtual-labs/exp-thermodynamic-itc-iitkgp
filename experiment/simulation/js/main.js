@@ -186,7 +186,7 @@ function clickchk4(){
     document.getElementById("int2").disabled=true;
     document.getElementById("int3").disabled=true;
     document.getElementById("int1").disabled=true;
-    document.getElementById("step4").disabled = false;
+    
   }
   else{
     $('#alertModal').modal('show');
@@ -323,6 +323,7 @@ function injectplunger3(){
 
 var imgobjplunger4=null;
 function injectplunger4(){
+  document.getElementById("step4").disabled = false;
  var plungertop = 14;
  var imgplunger4= document.getElementById("plungerinj");
  clearInterval(imgobjplunger4);
