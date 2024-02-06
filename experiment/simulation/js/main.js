@@ -68,7 +68,7 @@ function injectplunger(){
     canvass11 = document.getElementById("injectioncolumn");
     ctxgs11 = canvass11.getContext("2d");
     var posY = 0;
-    var speed = 0.6;
+    var speed = 0.7;
 
 
 
