@@ -28,10 +28,10 @@ Developer: Prakriti Dhang
 					<div class="card-body">
 						<p class="h5">Simulation instruction</p>
 						<ol>
-							<li>Click on "Start the Experiment" button
+							<li>Click on "Start the Experiment" button.
 							</li>
-							<li>Click on the "Sample cell" button in step 1 or on the Sample cell (green colored in the ITC machine).</li>
-							<li>Click on the button "Protein in Injection" in step 2 or on the fluid of the injection.</li>
+							<li>Click on the "Protein of interest in Sample cell" button in step 1 or on the Sample cell (green colored in the ITC machine).</li>
+							<li>Click on the "Titrant reactant in Syringe" button in step 2 or on the green fluid in the injection.</li>
 							<li>Next click "10%" checkbox in step 3, and on the pluger to see the interaction/ binding between ligand and
 								protein. Repeat for 20%, 30%, 40% for the interaction/binding between ligand and
 								protein. </li>
@@ -75,14 +75,14 @@ Developer: Prakriti Dhang
 								<td>Step 1</td>
 								<td><button id="step1" type="button"
 									class="btn btn-info border border-1  rounded-3 fs-6 m-1"
-									style="cursor: pointer; " onclick="showsamplebtn()" disabled>Protein of interest</button></td>
+									style="cursor: pointer; " onclick="showsamplebtn()" disabled>Protein of interest in Sample cell</button></td>
 
 							</tr>
 							<tr>
 								<td>Step 2</td>
 								<td><button id="step2" type="button"
 									class="btn btn-info border border-1  rounded-3 fs-6 m-1"
-									style="cursor: pointer; " onclick="showligandbtn()" disabled>Titrant reactant</button></td>
+									style="cursor: pointer; " onclick="showligandbtn()" disabled>Titrant reactant in Syringe</button></td>
 
 							</tr>
 							<tr>
@@ -159,13 +159,14 @@ Developer: Prakriti Dhang
 							style="border: 0px solid rgb(8, 8, 8); "></canvas>
 							<canvas width="10px" height="20px" id="injectioncolumn4"
 							style="border: 0px solid rgb(12, 12, 12); "></canvas>
-
+							<canvas width="10px" height="20px" id="refcell" style="border:0px solid black;"
+							 data-toggle="tooltip" data-placement="right" title="Reference cell"></canvas>
 
 						<canvas width="10px" height="20px" id="ligandshow" style="border: 0px solid black; "
-							onclick="showligand()"></canvas>
+							onclick="showligand()" data-toggle="tooltip" data-placement="right" title="Reactant"></canvas>
 
-						<canvas width="10px" height="20px" id="samplecell" style="border: 0px solid black;"
-							onclick="showsample()"></canvas>
+						<canvas width="10px" height="20px" id="samplecell" style="border:0px solid black;"
+							onclick="showsample()" data-toggle="tooltip" data-placement="right" title="Sample cell"></canvas>
 						<img src="./images/ligand.png" id="ligand" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Titrant reactant">
 						<img src="./images/protein.png" id="protein" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Protein of interest">
 
@@ -269,10 +270,15 @@ Developer: Prakriti Dhang
 	<script src="./js/main.js"></script>
 	<script src="./js/plotgraph.js"></script>
 	<script>
-		$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+	$(function () {
+			$('[data-toggle="tooltip"]').tooltip(
+				{
+					placement: 'bottom'
+				}
+			);
+		})
 
+	
 	</script>
 </body>
 

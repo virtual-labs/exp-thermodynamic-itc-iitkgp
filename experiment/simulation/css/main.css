@@ -87,9 +87,9 @@ Developer: Prakriti Dhang*/
 #ligandshow{
     position: absolute;
     top:24.9%;
-    left:54.3%;
-    width:2%;
-    height: 10%;
+    left:67%;
+    width:4%;
+    height: 13%;
     z-index: 3;
     cursor: pointer;
     
@@ -108,14 +108,28 @@ Developer: Prakriti Dhang*/
     display: none;
 }
 
+/* Ref cell*/
+#refcell{
+    position: absolute;
+    top:65%;
+    left:37%;
+    width:10%;
+    height: 14%;
+    z-index: 5;
+    cursor: pointer;
+    
+    
+    
+}
+
 /* sample cell canvas*/
 #samplecell{
     position: absolute;
     top:64.9%;
-    left:51.5%;
-    width:8%;
+    left:64%;
+    width:10%;
     height: 14%;
-    z-index: 3;
+    z-index: 5;
     cursor: pointer;
     
     
@@ -125,7 +139,7 @@ Developer: Prakriti Dhang*/
 #protein{
     position: absolute;
     top:60%;
-    left: 88%;
+    left: 90%;
     width:25%;
     height: 25%;
     z-index: 3;
