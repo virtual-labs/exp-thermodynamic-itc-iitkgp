@@ -75,14 +75,14 @@ Developer: Prakriti Dhang
 								<td>Step 1</td>
 								<td><button id="step1" type="button"
 									class="btn btn-info border border-1  rounded-3 fs-6 m-1"
-									style="cursor: pointer; " onclick="showsamplebtn()" disabled>Sample cell</button></td>
+									style="cursor: pointer; " onclick="showsamplebtn()" disabled>Protein of interest</button></td>
 
 							</tr>
 							<tr>
 								<td>Step 2</td>
 								<td><button id="step2" type="button"
 									class="btn btn-info border border-1  rounded-3 fs-6 m-1"
-									style="cursor: pointer; " onclick="showligandbtn()" disabled>Protein in injection</button></td>
+									style="cursor: pointer; " onclick="showligandbtn()" disabled>Titrant reactant</button></td>
 
 							</tr>
 							<tr>
@@ -166,8 +166,8 @@ Developer: Prakriti Dhang
 
 						<canvas width="10px" height="20px" id="samplecell" style="border: 0px solid black;"
 							onclick="showsample()"></canvas>
-						<img src="./images/ligand.png" id="ligand" class="img-fluid">
-						<img src="./images/protein.png" id="protein" class="img-fluid">
+						<img src="./images/ligand.png" id="ligand" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Titrant reactant">
+						<img src="./images/protein.png" id="protein" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Protein of interest">
 
 					</div>
 
@@ -268,6 +268,12 @@ Developer: Prakriti Dhang
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
 	<script src="./js/main.js"></script>
 	<script src="./js/plotgraph.js"></script>
+	<script>
+		$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+	</script>
 </body>
 
 </html>

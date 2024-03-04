@@ -41,10 +41,10 @@
     {
       "question": "4. Fill in the blank, ΔG =…………………",
       "answers": {
-        "a": "ΔH - TΔS = RTlnKD ",
-        "b": "ΔH - TΔS = RTlnKA ",
-        "c": "ΔS - TΔH = RTlnKD ",
-        "d": "ΔH - TΔS = HTlnKD "
+        "a": "ΔH - TΔS = RT<i>ln</i>K<sub>D</sub> ",
+        "b": "ΔH - TΔS = RT<i>ln</i>K<sub>A</sub>",
+        "c": "ΔS - TΔH = RT<i>ln</i>K<sub>D</sub> ",
+        "d": "ΔH - TΔS = HT<i>ln</i>K<sub>D</sub> "
       },
       
       "correctAnswer": "a",
