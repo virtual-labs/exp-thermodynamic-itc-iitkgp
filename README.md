@@ -12,7 +12,7 @@
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+Isothermal titration calorimetry (ITC) is one of the very important techniques used to determine the label-free specific interactions between molecules dissolved in the aqueous solution such as protein-ligand binding, protein-protein binding, DNA-protein binding, protein-carbohydrate binding, protein-lipid binding and antigen-antibody interaction. It is a highly sensitive technique that works by titrating one binding reagent titrant, generally a small chemical compound called a ligand into a titrand, usually protein at a constant temperature. This technique is commonly used for drug development as it provides valuable thermodynamic information about the interaction of the molecule with its target protein. ITC can precisely determine Gibbs energy, enthalpy, entropy, and heat capacity changes associated with the binding or interaction of biomolecules.
 
 ### Subject Matter Experts
 

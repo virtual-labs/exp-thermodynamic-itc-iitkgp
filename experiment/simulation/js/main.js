@@ -33,12 +33,13 @@ function showligand(){
 
 function showsamplebtn(){
   document.getElementById("protein").style.display="block";
+  window.scrollBy(0,500);
 
 }
 
 function showligandbtn(){
   document.getElementById("ligand").style.display="block";
-  
+  window.scrollBy(0,500);
 
 }
 
@@ -123,6 +124,7 @@ function clickchk1(){
     document.getElementById("int2").disabled=true;
     document.getElementById("int3").disabled=true;
     document.getElementById("int4").disabled=true;
+    window.scrollBy(0,500);
   }
   else{
     $('#alertModal').modal('show');
@@ -144,6 +146,7 @@ function clickchk2(){
     document.getElementById("int4").disabled=true;
     document.getElementById("int3").disabled=true;
     document.getElementById("int1").disabled=true;
+    window.scrollBy(0,500);
 
   }
   else{
@@ -166,6 +169,7 @@ function clickchk3(){
     document.getElementById("int2").disabled=true;
     document.getElementById("int4").disabled=true;
     document.getElementById("int1").disabled=true;
+    window.scrollBy(0,500);
   }
   else{
     $('#alertModal').modal('show');
@@ -186,6 +190,7 @@ function clickchk4(){
     document.getElementById("int2").disabled=true;
     document.getElementById("int3").disabled=true;
     document.getElementById("int1").disabled=true;
+    window.scrollBy(0,500);
     
   }
   else{
@@ -383,7 +388,7 @@ function datanalysisgraph(){
   document.getElementById("cardint1").style.display="none";
   document.getElementById("cardint").style.display="block";
   document.getElementById("graph1").style.display="block";
-  var chart = new CanvasJS.Chart("chartContainer", {
+ /*  var chart = new CanvasJS.Chart("chartContainer", {
     animationEnabled: true,
     title: {
       text: "Isothermal titration calorimetry (ITC)"
@@ -412,7 +417,7 @@ function datanalysisgraph(){
       //dataPoints: thermogramData.map(point => ({ x: point.x, y: point.y, z: point.z, color: getColorForTemperature(point.z) }))
     }]
   });
-  chart.render();
+  chart.render(); */
 }
 
 /*
