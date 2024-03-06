@@ -124,7 +124,7 @@ function clickchk1(){
     document.getElementById("int2").disabled=true;
     document.getElementById("int3").disabled=true;
     document.getElementById("int4").disabled=true;
-    window.scrollBy(0,500);
+    window.scrollBy(0,300);
   }
   else{
     $('#alertModal').modal('show');
@@ -146,7 +146,7 @@ function clickchk2(){
     document.getElementById("int4").disabled=true;
     document.getElementById("int3").disabled=true;
     document.getElementById("int1").disabled=true;
-    window.scrollBy(0,500);
+    window.scrollBy(0,300);
 
   }
   else{
@@ -169,7 +169,7 @@ function clickchk3(){
     document.getElementById("int2").disabled=true;
     document.getElementById("int4").disabled=true;
     document.getElementById("int1").disabled=true;
-    window.scrollBy(0,500);
+    window.scrollBy(0,300);
   }
   else{
     $('#alertModal').modal('show');
@@ -190,7 +190,7 @@ function clickchk4(){
     document.getElementById("int2").disabled=true;
     document.getElementById("int3").disabled=true;
     document.getElementById("int1").disabled=true;
-    window.scrollBy(0,500);
+    window.scrollBy(0,300);
     
   }
   else{
@@ -388,6 +388,7 @@ function datanalysisgraph(){
   document.getElementById("cardint1").style.display="none";
   document.getElementById("cardint").style.display="block";
   document.getElementById("graph1").style.display="block";
+  window.scrollBy(0,500);
  /*  var chart = new CanvasJS.Chart("chartContainer", {
     animationEnabled: true,
     title: {
