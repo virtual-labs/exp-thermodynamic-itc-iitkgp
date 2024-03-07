@@ -155,7 +155,7 @@ Developer: Prakriti Dhang*/
     position: relative;
     top:1%;
     left: 10%;
-    width:20%;
+    width:35%;
     height: 90%;
     display: none;
 }
@@ -164,7 +164,7 @@ Developer: Prakriti Dhang*/
     position: relative;
     top:1%;
     left: 10%;
-    width:20%;
+    width:35%;
     height: 90%;
     display: none;
    
@@ -174,7 +174,7 @@ Developer: Prakriti Dhang*/
     position: relative;
     top:10%;
     left: 10%;
-    width:20%;
+    width:35%;
     height: 90%;
     display: none;
    
@@ -184,7 +184,7 @@ Developer: Prakriti Dhang*/
     position: relative;
     top:10%;
     left: 10%;
-    width:20%;
+    width:35%;
     height: 90%;
     display: none;
    
@@ -196,7 +196,7 @@ Developer: Prakriti Dhang*/
     position: relative;
     top:1%;
     left: 1%;
-    width:26%;
+    width:35%;
     height: 90%;
     display: block;
 }
@@ -204,9 +204,9 @@ Developer: Prakriti Dhang*/
 #int120{
     position: absolute;
     top:1%;
-    left: 28%;
-    width:23%;
-    height: 85%;
+    left: 40%;
+    width:35%;
+    height:98%;
     display: block;
    
 }
@@ -214,9 +214,9 @@ Developer: Prakriti Dhang*/
 #int130{
     position: absolute;
     top:3%;
-    left: 52%;
-    width:23%;
-    height: 85%;
+    left: 78%;
+    width:35%;
+    height:98%;
     display: block;
    
 }
@@ -224,9 +224,9 @@ Developer: Prakriti Dhang*/
 #int140{
     position: absolute;
     top:3%;
-    left: 76%;
-    width:23%;
-    height:85%;
+    left: 117%;
+    width:35%;
+    height:98%;
     display: block;
    
 }
