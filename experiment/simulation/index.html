@@ -30,9 +30,12 @@ Developer: Prakriti Dhang
 						<ol>
 							<li>Click on "Start the Experiment" button.
 							</li>
-							<li>Click on the "Protein of interest in Sample cell" button in step 1 or on the Sample cell (green colored in the ITC machine).</li>
-							<li>Click on the "Titrant reactant in Syringe" button in step 2 or on the green fluid in the injection.</li>
-							<li>Next click "10%" checkbox in step 3, and on the pluger to see the interaction/ binding between ligand and
+							<li>Click on the "Protein of interest in Sample cell" button in step 1 or on the Sample cell
+								(green colored in the ITC machine).</li>
+							<li>Click on the "Titrant reactant in Syringe" button in step 2 or on the green fluid in the
+								injection.</li>
+							<li>Next click "10%" checkbox in step 3, and on the pluger to see the interaction/ binding
+								between ligand and
 								protein. Repeat for 20%, 30%, 40% for the interaction/binding between ligand and
 								protein. </li>
 							<li>Click on "Data Analysis" button.</li>
@@ -49,9 +52,9 @@ Developer: Prakriti Dhang
 					</div>
 				</div>
 			</div>
-	
-			</div>
-<div class="row">
+
+		</div>
+		<div class="row">
 
 			<div class="col-md-12">
 				<div class="card">
@@ -74,15 +77,17 @@ Developer: Prakriti Dhang
 							<tr>
 								<td>Step 1</td>
 								<td><button id="step1" type="button"
-									class="btn btn-info border border-1  rounded-3 fs-6 m-1"
-									style="cursor: pointer; " onclick="showsamplebtn()" disabled>Protein of interest in Sample cell</button></td>
+										class="btn btn-info border border-1  rounded-3 fs-6 m-1"
+										style="cursor: pointer; " onclick="showsamplebtn()" disabled>Protein of interest
+										in Sample cell</button></td>
 
 							</tr>
 							<tr>
 								<td>Step 2</td>
 								<td><button id="step2" type="button"
-									class="btn btn-info border border-1  rounded-3 fs-6 m-1"
-									style="cursor: pointer; " onclick="showligandbtn()" disabled>Titrant reactant in Syringe</button></td>
+										class="btn btn-info border border-1  rounded-3 fs-6 m-1"
+										style="cursor: pointer; " onclick="showligandbtn()" disabled>Titrant reactant in
+										Syringe</button></td>
 
 							</tr>
 							<tr>
@@ -93,25 +98,29 @@ Developer: Prakriti Dhang
 
 									</p>
 									<div class="form-check div-inline">
-										<input class="form-check-input" type="checkbox" value="" id="int1" onclick="clickchk1()" disabled>
-										<label class="form-check-label" for="int1" >
+										<input class="form-check-input" type="checkbox" value="" id="int1"
+											onclick="clickchk1()" disabled>
+										<label class="form-check-label" for="int1">
 											10%
 										</label>
 									</div>
 									<div class="form-check div-inline">
-										<input class="form-check-input" type="checkbox" value="" id="int2" onclick="clickchk2()" disabled>
+										<input class="form-check-input" type="checkbox" value="" id="int2"
+											onclick="clickchk2()" disabled>
 										<label class="form-check-label" for="int2">
 											20%
 										</label>
 									</div>
 									<div class="form-check div-inline">
-										<input class="form-check-input" type="checkbox" value="" id="int3" onclick="clickchk3()" disabled>
+										<input class="form-check-input" type="checkbox" value="" id="int3"
+											onclick="clickchk3()" disabled>
 										<label class="form-check-label" for="int3">
 											30%
 										</label>
 									</div>
 									<div class="form-check div-inline">
-										<input class="form-check-input" type="checkbox" value="" id="int4" onclick="clickchk4()" disabled>
+										<input class="form-check-input" type="checkbox" value="" id="int4"
+											onclick="clickchk4()" disabled>
 										<label class="form-check-label" for="int4">
 											40%
 										</label>
@@ -123,7 +132,8 @@ Developer: Prakriti Dhang
 								<td>Step 4</td>
 								<td><button id="step4" type="button"
 										class="btn btn-slate-blue-grey border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " onclick="datanalysisgraph()" disabled>Data Analysis</button></td>
+										style="cursor: pointer; " onclick="datanalysisgraph()" disabled>Data
+										Analysis</button></td>
 
 							</tr>
 						</table>
@@ -148,29 +158,32 @@ Developer: Prakriti Dhang
 		<div class="row">
 			<div class="col-md-6">
 				<!--div class="card card-body border border-1" -->
-					<div class="img-container">
-						<img src="./images/setup_itc.png" id="setup" class="img-fluid">
-						<img src="./images/plunger_1.png" id="plungerinj" class="img-fluid">
-						<canvas width="10px" height="20px" id="injectioncolumn"
-							style="border: 0px solid rgb(17, 17, 17); "></canvas>
-							<canvas width="10px" height="20px" id="injectioncolumn2"
-							style="border: 0px solid rgb(15, 15, 15); "></canvas>
-							<canvas width="10px" height="20px" id="injectioncolumn3"
-							style="border: 0px solid rgb(8, 8, 8); "></canvas>
-							<canvas width="10px" height="20px" id="injectioncolumn4"
-							style="border: 0px solid rgb(12, 12, 12); "></canvas>
-							<canvas width="10px" height="20px" id="refcell" style="border:0px solid black;"
-							 data-toggle="tooltip" data-placement="right" title="Reference cell"></canvas>
+				<div class="img-container">
+					<img src="./images/setup_itc.png" id="setup" class="img-fluid">
+					<img src="./images/plunger_1.png" id="plungerinj" class="img-fluid"  >
+					<canvas width="10px" height="20px" id="injectioncolumn"
+						style="border: 0px solid rgb(17, 17, 17); "></canvas>
+					<canvas width="10px" height="20px" id="injectioncolumn2"
+						style="border: 0px solid rgb(15, 15, 15); "></canvas>
+					<canvas width="10px" height="20px" id="injectioncolumn3"
+						style="border: 0px solid rgb(8, 8, 8); "></canvas>
+					<canvas width="10px" height="20px" id="injectioncolumn4"
+						style="border: 0px solid rgb(12, 12, 12); "></canvas>
+					<canvas width="10px" height="20px" id="refcell" style="border:0px solid black;"
+						data-toggle="tooltip" data-placement="right" title="Reference cell"></canvas>
 
-						<canvas width="10px" height="20px" id="ligandshow" style="border: 0px solid black; "
-							onclick="showligand()" data-toggle="tooltip" data-placement="right" title="Reactant"></canvas>
+					<canvas width="10px" height="20px" id="ligandshow" style="border: 0px solid black; "
+						onclick="showligand()" data-toggle="tooltip" data-placement="right" title="Reactant"></canvas>
 
-						<canvas width="10px" height="20px" id="samplecell" style="border:0px solid black;"
-							onclick="showsample()" data-toggle="tooltip" data-placement="right" title="Sample cell"></canvas>
-						<img src="./images/ligand.png" id="ligand" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Titrant reactant">
-						<img src="./images/protein.png" id="protein" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Protein of interest">
+					<canvas width="10px" height="20px" id="samplecell" style="border:0px solid black;"
+						onclick="showsample()" data-toggle="tooltip" data-placement="right"
+						title="Sample cell"></canvas>
+					<img src="./images/ligand.png" id="ligand" class="img-fluid" data-toggle="tooltip"
+						data-placement="top" title="Titrant reactant">
+					<img src="./images/protein.png" id="protein" class="img-fluid" data-toggle="tooltip"
+						data-placement="top" title="Protein of interest">
 
-					</div>
+				</div>
 
 				<!--/div-->
 			</div>
@@ -186,7 +199,7 @@ Developer: Prakriti Dhang
 					</div>
 				</div>
 				<div class="card card-body border border-1" id="cardint" style="display: none;">
-					<p class="h3" id="pstep3" > Binding/Interaction between ligand and protein</p>
+					<p class="h3" id="pstep3"> Binding/Interaction between ligand and protein</p>
 					<div class="img-container">
 						<img src="./images/10.png" id="int110" class="img-fluid">
 						<img src="./images/20.png" id="int120" class="img-fluid">
@@ -250,8 +263,9 @@ Developer: Prakriti Dhang
 						<p></p>
 					</div>
 					<div class="modal-footer">
-	
-						<button type="button" class="btn btn-warning" onclick="cancelmsg()" data-bs-dismiss="modal">OK</button>
+
+						<button type="button" class="btn btn-warning" onclick="cancelmsg()"
+							data-bs-dismiss="modal">OK</button>
 					</div>
 				</div>
 			</div>
@@ -270,15 +284,20 @@ Developer: Prakriti Dhang
 	<script src="./js/main.js"></script>
 	<script src="./js/plotgraph.js"></script>
 	<script>
-	$(function () {
+		$(function () {
 			$('[data-toggle="tooltip"]').tooltip(
 				{
 					placement: 'bottom'
 				}
 			);
+
+			$('plungerinj').tooltip({
+				placement: 'right'
+			});
 		})
 
-	
+		
+
 	</script>
 </body>
 
