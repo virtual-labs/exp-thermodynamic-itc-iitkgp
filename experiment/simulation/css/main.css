@@ -191,12 +191,12 @@ Developer: Prakriti Dhang*/
 }
 
 /* interaction images for dataanalysis*/
-
+/*
 #int110{
     position: relative;
     top:1%;
     left: 1%;
-    width:35%;
+    width:30%;
     height: 90%;
     display: block;
 }
@@ -229,7 +229,7 @@ Developer: Prakriti Dhang*/
     height:98%;
     display: block;
    
-}
+}*/
 
 .btn-slate-blue-grey {
     --bs-btn-color: #fff;
