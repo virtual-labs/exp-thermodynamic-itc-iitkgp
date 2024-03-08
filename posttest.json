@@ -1,0 +1,116 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which of the following is a common application of ITC?",
+      "answers": {
+        "a": "Protein expression",
+        "b": "Ligand screening",
+        "c": "DNA sequencing",
+        "d": "Cell culture optimisation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What is the primary advantage of ITC over other binding assays?",
+      "answers": {
+        "a": "High-sensitivity",
+        "b": "Low cost",
+        "c": "Speed",
+        "d": "Ease of use"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What information does the shape of the ITC curve provide?",
+      "answers": {
+        "a": "Rate constant",
+        "b": "Thermodynamic parameters",
+        "c": "Reaction order",
+        "d": "Activation energy"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What is the role of the reference cell in an ITC experiment?",
+      "answers": {
+        "a": "To measure the absolute temperature of the solution ",
+        "b": "To calibrate the injection syringe for accurate volume delivery",
+        "c": "To provide a baseline for comparison with the heat changes in the sample cell",
+        "d": "To monitor changes in pressure during the titration process"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which of the following statements regarding the interpretation of ITC data is correct?",
+      "answers": {
+        "a": "A positive enthalpy change (ΔH) always indicates an exothermic reaction",
+        "b": "The shape of the ITC curve is independent of the stoichiometry of the binding interaction",
+        "c": "The binding constant (Ka) can be accurately determined from a single ITC experiment",
+        "d": "An isothermal experiment can accurately measure changes in entropy (ΔS)"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. In an ITC experiment, what is the primary reason for injecting the titrant solution incrementally rather than all at once?",
+      "answers": {
+        "a": "To reduce experimental time",
+        "b": "To avoid dilution effects",
+        "c": "To maintain a constant pH",
+        "d": "To minimize heat loss to the surroundings"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. In an ITC experiment, what does the term 'stoichiometry' refer to?",
+      "answers": {
+        "a": "The ratio of titrant to sample volume in each injection",
+        "b": "The ratio of the concentrations of the interacting molecules",
+        "c": "The number of binding sites on the sample molecule",
+        "d": "The number of injections required to achieve binding saturation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Which of the following factors can affect the accuracy of the enthalpy change (ΔH) measured by ITC?",
+      "answers": {
+        "a": "Temperature fluctuations during the experiment",
+        "b": "Size of the syringe used for injections",
+        "c": "Concentration of the titrant solution",
+        "d": "pH of the buffer solution"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Which of the following techniques is commonly used to validate the results obtained from an ITC experiment?",
+      "answers": {
+        "a": "Dynamic light scattering (DLS)",
+        "b": "Surface plasmon resonance (SPR)",
+        "c": "Nuclear magnetic resonance (NMR)",
+        "d": "Differential scanning calorimetry (DSC)"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. Which of the following factors should be considered when selecting the appropriate buffer for an ITC experiment?",
+      "answers": {
+        "a": "Buffer pKa",
+        "b": "Buffer viscosity",
+        "c": "Buffer refractive index",
+        "d": "Buffer concentration"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+
+  ]
+}
