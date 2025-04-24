@@ -1,0 +1,249 @@
+/* You CSS goes in here */
+
+
+/*
+
+Lab name: Experimental Biochemistry
+Exp name: Thermodynamic characterization of protein-ligand binding by isothermal titration calorimetry (ITC)
+File name: main.css
+Developer: Prakriti Dhang*/
+
+
+.card {
+    margin-bottom: 5px;
+}
+
+.img-container {
+    
+    display: inline-block;
+    position: relative;
+}
+
+.div-inline {
+
+    display: inline-block;
+}
+
+
+#setup{
+    position: relative;
+    top:1%;
+    left:10%;
+    width:90%;
+    z-index: 2;
+}
+
+#plungerinj{
+    position: absolute;
+    top:5%; /*5 to 8 to 11 to 14  to 17 */
+    left:65.6%;
+    width:6.5%;
+    z-index: 3;
+    cursor: pointer;
+    z-index: 4;
+}
+
+#injectioncolumn{
+    position: absolute;
+    top:24.65%;
+    left:67.13%;
+    width:3.45%;
+    height: 3.1%;
+    z-index: 3;
+    
+
+}
+#injectioncolumn2{
+    position: absolute;
+    top:27.76%;
+    left:67.13%;
+    width:3.45%;
+    height: 3%;
+    z-index: 3;
+   
+
+}
+#injectioncolumn3{
+    position: absolute;
+    top:30.78%;
+    left:67.13%;
+    width:3.45%;
+    height: 3%;
+    z-index: 3;
+   
+
+}
+#injectioncolumn4{
+    position: absolute;
+    top:33.8%;
+    left:67.13%;
+    width:3.45%;
+    height: 3%;
+    z-index: 3;
+   
+}
+
+/* ligand canvas*/
+#ligandshow{
+    position: absolute;
+    top:24.9%;
+    left:67%;
+    width:4%;
+    height: 13%;
+    z-index: 3;
+    cursor: pointer;
+    
+    
+}
+
+/* image */
+#ligand{
+    position: absolute;
+    top:18%;
+    left:73%;
+    width:20%;
+    height: 20%;
+    z-index: 3;
+    cursor: pointer; 
+    display: none;
+}
+
+/* Ref cell*/
+#refcell{
+    position: absolute;
+    top:65%;
+    left:37%;
+    width:10%;
+    height: 14%;
+    z-index: 5;
+    cursor: pointer;
+    
+    
+    
+}
+
+/* sample cell canvas*/
+#samplecell{
+    position: absolute;
+    top:64.9%;
+    left:64%;
+    width:10%;
+    height: 14%;
+    z-index: 5;
+    cursor: pointer;
+    
+    
+    
+}
+/*image*/
+#protein{
+    position: absolute;
+    top:60%;
+    left: 90%;
+    width:25%;
+    height: 25%;
+    z-index: 3;
+    cursor: pointer;
+    display: none;
+    
+    
+    
+}
+/* interaction images*/
+
+#int10{
+    position: relative;
+    top:1%;
+    left: 10%;
+    width:35%;
+    height: 90%;
+    display: none;
+}
+
+#int20{
+    position: relative;
+    top:1%;
+    left: 10%;
+    width:35%;
+    height: 90%;
+    display: none;
+   
+}
+
+#int30{
+    position: relative;
+    top:10%;
+    left: 10%;
+    width:35%;
+    height: 90%;
+    display: none;
+   
+}
+
+#int40{
+    position: relative;
+    top:10%;
+    left: 10%;
+    width:35%;
+    height: 90%;
+    display: none;
+   
+}
+
+/* interaction images for dataanalysis*/
+/*
+#int110{
+    position: relative;
+    top:1%;
+    left: 1%;
+    width:30%;
+    height: 90%;
+    display: block;
+}
+
+#int120{
+    position: absolute;
+    top:1%;
+    left: 40%;
+    width:35%;
+    height:98%;
+    display: block;
+   
+}
+
+#int130{
+    position: absolute;
+    top:3%;
+    left: 78%;
+    width:35%;
+    height:98%;
+    display: block;
+   
+}
+
+#int140{
+    position: absolute;
+    top:3%;
+    left: 117%;
+    width:35%;
+    height:98%;
+    display: block;
+   
+}*/
+
+.btn-slate-blue-grey {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6A5ACD;
+    --bs-btn-border-color: #6A5ACD;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #483D8B;
+    --bs-btn-hover-border-color: #6A5ACD;
+    --bs-btn-focus-shadow-rgb: 106, 90, 205;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6A5ACD;
+    --bs-btn-active-border-color: #4B0082;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6A5ACD;
+    --bs-btn-disabled-border-color: #6A5ACD;
+  }
