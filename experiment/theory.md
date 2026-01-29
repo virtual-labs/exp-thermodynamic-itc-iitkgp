@@ -11,7 +11,7 @@ In a properly designed, typical ITC experiment, the binding affinity (dissociati
 
 #### **Instrumentation:**
 
-Two identical coin-shaped cells, sample and reference, are enclosed in an adiabatic shield (jacket) as illustrated in (Figure 2). The temperature difference between the reference cell and the jacket is continuously monitored to maintain a constant temperature. A feedback control system monitors the difference in temperature between the two cells through a semiconductor Peltier sensor device sandwiched between them. This temperature difference is kept constant and as close to zero as possible. The feedback signal is the measured signal.
+Two identical coin-shaped cells, sample and reference, are enclosed in an adiabatic shield (jacket) as illustrated in (Figure 2). The temperature difference between the reference cell and the sample cell is continuously monitored to maintain a constant temperature. A feedback control system monitors the difference in temperature between the two cells through a semiconductor Peltier sensor device sandwiched between them. This temperature difference is kept constant and as close to zero as possible. The feedback signal is the measured signal.
 One of the reactants is placed in the sample cell and the other one in the injection syringe. During an experiment, the syringe is used to add the titrant reactant to the sample cell in a stepwise fashion and, at the same time, stir the solution in the sample cell to achieve fast mixing. The reference cell serves only as a temperature reference.
 
 <div align="center">
