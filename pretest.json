@@ -1,0 +1,126 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the full form of ITC?",
+      "answers": {
+        "a": "Isothermal Titration Calorimetry",
+        "b": "Isothermal Titre Calorimetry",
+        "c": "Isothermal Titration Colour",
+        "d": "None of the above"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What do you mean by the term isothermal?",
+      "answers": {
+        "a": "Constant pressure",
+        "b": "Constant temperature",
+        "c": "Constant volume",
+        "d": "None of the above"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+   
+    {
+      "question": "3. What are the major features of ITC?",
+      "answers": {
+        "a": "Reference cell",
+        "b": "Sample cell",
+        "c": "Adiabatic shield",
+        "d": "All of the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Fill in the blank, ΔG =…………………",
+      "answers": {
+        "a": "ΔH - TΔS = RT<i>ln</i>K<sub>D</sub> ",
+        "b": "ΔH - TΔS = RT<i>ln</i>K<sub>A</sub>",
+        "c": "ΔS - TΔH = RT<i>ln</i>K<sub>D</sub> ",
+        "d": "ΔH - TΔS = HT<i>ln</i>K<sub>D</sub> "
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What is an adiabatic process?",
+      "answers": {
+        "a": "a process in which no heat is transferred into a system",
+        "b": "a process in which no heat is transferred into or out of a system",
+        "c": "a process in which no heat is transferred out of a system",
+        "d": "a process in which heat is transferred into or out of a system"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Fill in the blank, H =………… Here, E= internal energy, P= pressure, V=volume",
+      "answers": {
+        "a": "H = E + PV",
+        "b": "H = E - PV",
+        "c": "H = E + P",
+        "d": "H = E + V"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. What is net entropy change (ΔS) if T1 = T2, in the given formula <p> <br><img src=\"images/q7.png\"></p>",
+      "answers": {
+        "a": "ΔS > 0, the process is spontaneous",
+        "b": "ΔS > 0, the process is in equilibrium ",
+        "c": "ΔS = 0, the process is in equilibrium",
+        "d": "ΔS = 0, the process is spontaneous "
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Binding affinity is typically measured and reported by the equilibrium dissociation constant (KD), which is used to evaluate and rank order strengths of biomolecular interactions. ",
+      "answers": {
+        "a": "The lower the KD value, the greater the binding affinity",
+        "b": "The lower the KD value, the lower the binding affinity",
+        "c": "The larger the KD value, the lower the binding affinity",
+        "d": "Both a and c"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. What does ITC measure?",
+      "answers": {
+        "a": "Temperature change",
+        "b": "Heat change",
+        "c": "pH change",
+        "d": "Volume change"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. In an ITC experiment, a decrease in heat corresponds to:",
+      "answers": {
+        "a": "An exothermic reaction",
+        "b": "No reaction",
+        "c": "An endothermic reaction",
+        "d": "An equilibrium reaction"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
