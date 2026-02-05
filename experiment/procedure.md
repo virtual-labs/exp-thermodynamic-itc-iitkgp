@@ -13,7 +13,7 @@
 To obtain a sigmoidal isotherm (1:1 model), the molar ratio of titrant to titrand should be equal to 2 at the end of the titration. The solution in the syringe should be approximately 10-fold more concentrated than in the cell. Some macromolecules are poorly soluble and aggregate at higher concentrations. For this reason, most often the solution of protein is loaded into the sample cell. The optimal macromolecule concentration is determined from the Wiseman parameter (also called the sigmoidal factor or c value)  
 c = K<sub>b</sub>  x [M] x n  
 
-where  K<sub>b</sub> - binding constant, [M] - concentration of the protein (macromolecule), n - stoichiometric coefficient (total number of ligand binding sites on one macromolecule molecule).
+where  K<sub>b</sub> - binding constant, [M] - concentration of the protein (macromolecule), n - stoichiometric coefficient (total number of ligand binding sites on one macromolecule).
 
 
 ### Buffers
